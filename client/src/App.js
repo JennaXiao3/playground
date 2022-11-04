@@ -1,3 +1,5 @@
+// hello!
+
 import React, { useState, useEffect } from 'react'; // to add
 import logo from "./logo.svg";
 import "./App.css";
@@ -22,7 +24,7 @@ function App() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(inBody)
     };
-    fetch("/hello", someStuff)
+    fetch("/hi", someStuff)
           .then(res => res.json())
           .then((data) => setData(data.message));
   }, []);

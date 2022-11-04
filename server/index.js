@@ -25,7 +25,7 @@ app.get("/api", (req, res) => {
   res.json({ message: "Hello from server!" });
 });
 
-app.post("/hello", (req, res) => {
+app.post("/hi", (req, res) => {
   let myName = req.body.name;
   let myLiking = req.body.like;
 
