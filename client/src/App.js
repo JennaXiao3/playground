@@ -1,5 +1,5 @@
 // hello!
-// omg its stanley
+// kelly
 
 import React, { useState, useEffect } from 'react'; // to add
 import logo from "./logo.svg";
